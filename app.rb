@@ -12,7 +12,7 @@ class App < Sinatra::Base
     @rev_string = orig_string.reverse
     "#{@rev_string}"
 
-    erb :reversed # @reversed will be defined as
+    erb :reversed 
   end
 
   get '/friends' do
